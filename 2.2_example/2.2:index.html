@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2.2</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+<p>
+  <label for="word-input">text</label>
+  <input id="word-input" type="text" placeholder="enter something" />
+  
+</p>
+
+<p>
+  <label for="plate-color">plate color</label>
+  <input id="plate-color" type="color" value="grey" />
+  <output for="plate-color" data-default="grey"></output>
+</p>
+
+<p>
+  <label for="hamburger-bun-x">hamburger bun x</label>
+  <input id="hamburger-bun-x" type="range" min="0" max="400" value="100" />
+  <label for="hamburger-bun-y">hamburger bun y</label>
+  <input id="hamburger-bun-y" type="range" min="0" max="400" value="110" />
+</p>
+
+<p>
+  <label for="meat-x">meat x</label>
+  <input id="meat-x" type="range" min="0" max="400" value="100" />
+  <label for="meat-y">meat y</label>
+  <input id="meat-y" type="range" min="0" max="400" value="110" />
+</p>
+
+<p>
+  <label for="cheese-x">cheese x</label>
+  <input id="cheese-x" type="range" min="0" max="400" value="100" />
+  <label for="cheese-y">cheese y</label>
+  <input id="cheese-y" type="range" min="0" max="400" value="110" />
+</p>
+
+<p>
+  <label for="tomato-x">tomato x</label>
+  <input id="tomato-x" type="range" min="0" max="400" value="100" />
+  <label for="tomato-y">tomato y</label>
+  <input id="tomato-y" type="range" min="0" max="400" value="110" />
+</p>
+
+<p>
+  <label for="bottomBun-x">bottom bun x</label>
+  <input id="bottomBun-x" type="range" min="0" max="400" value="100" />
+  <label for="bottomBun-y">bottom bun y</label>
+  <input id="bottomBun-y" type="range" min="0" max="400" value="110" />
+</p>
+
+
+<div id="bg">
+  <div id="hamburger"></div>
+  <img id="hamburgerBun" src="hamburger.png" />
+  <img id="cheese" src="cheese.png" />
+  <img id="meat" src="meat.webp" />
+  <img id="tomato" src="tomato.png" />
+  <img id="bottomBun" src="bottom_bun.webp" />
+  <h1 id="word">cheese burger</h1>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
